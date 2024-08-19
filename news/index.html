@@ -5,7 +5,7 @@ header-img: "img/everyone.jpeg"
 description: "Orphelinat La Mission de Dieu (God’s mission Orphanage) is an orphanage located in the
 Democratic Republic of the Congo, Kinshasa, and is comprised of 40 children."
 ---
-
+<h1>Latest News</h1>
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -27,7 +27,8 @@ Democratic Republic of the Congo, Kinshasa, and is comprised of 40 children."
         </div>
     </a>
     <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date:
+        "%B
         %-d, %Y" }}
     </p>
 </div>
@@ -39,7 +40,8 @@ Democratic Republic of the Congo, Kinshasa, and is comprised of 40 children."
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer
+            Posts</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}

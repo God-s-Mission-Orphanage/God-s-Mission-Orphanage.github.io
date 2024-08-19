@@ -59,7 +59,7 @@ disqus_username: God-s-Mission-Orphanage
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
-featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 0 # A tag will be featured if the size of it is more than this condition value
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
@@ -74,4 +74,17 @@ verses:
     { title: "James 1:27", href: "https://www.bible.com/bible/111/JAS.1.27.NIV" },
     { title: "Matthew 25:35-40", href: "https://www.bible.com/bible/111/MAT.25.35-40.NIV" },
     { title: "Psalm 82:3", href: "https://www.bible.com/bible/111/PSA.82.3.NIV" },
+  ]
+
+needs:
+  [
+    { name: "Eating three meals a day?",  met: "❌",    unmet: ""},
+    { name: "% children in school this week",    met: "-" ,   unmet: "-"},
+    { name: "Rent",                       met: "$100",  unmet: "$250"},
+
+    { name: "Number of sick children in the hospital", met: "1", unmet: "0"},
+
+    { name: "Building a shelter",         met: $0,      unmet: "$50,000"},
+    { name: "Back to school appliances ($5/child)", met: $0,      unmet: "$200"},
+    { name: "School fees ($10/child)", met: $0,      unmet: "$400"}
   ]

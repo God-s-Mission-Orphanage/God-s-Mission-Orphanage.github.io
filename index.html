@@ -1,12 +1,14 @@
 ---
 layout: page
-description: "「 What is God's Mission Orphanage? 」"
+description: "「 Who are God's Mission Orphanage? 」"
 header-img: "img/about.png"
-header-mask: 0.1
+header-mask: 0.5
 title: About
+hide-in-nav: true
 ---
 <br>
-Orphelinat La Mission De Dieu (God’s Mission Orphanage) is an orphanage located at 29 AVENUE DU COMMERCE, C/ NGALIEMA
+Orphelinat La Mission De Dieu (God’s Mission Orphanage) is an orphanage located at 29 AVENUE DU COMMERCE, C/
+NGALIEMA
 BINZA - DELVAUX, KINSHASA, CONGO
 DRC.
 <br>
@@ -14,21 +16,43 @@ DRC.
 It is facing many challenges at present including:
 <ul>
     <li>Feeding the children three times a day</li>
-    <li>Shelter (They are currently renting and most of the funds go to renting costs)</li>
+    <li>Sheltering them (they are currently renting and most of the funds go to renting costs)</li>
     <li>Children often go days on end without going to school</li>
-    <li>Medical needs are usually taken care for at home due to the lack of funds to go to the hospital and one day a
+    <li>Medical needs are usually taken care for at home due to the lack of funds to go to the hospital and one day
+        a
         child spent four days with a broken arm due to the lack of funds</li>
     <li>And their clothes are often dirty</li>
 </ul>
 
-The main challenge being food and shelter, your funds will really help go towards building them a home (you can follow
+The main challenge being food and shelter, your funds will really help go towards building them a home (you can
+follow
 the progress here), feeding them three times a day, and the rest of the money be used for school and medical needs.
 <br>
 <br>
-You can follow the updates for each need (food, shelter, education, health, and clothes), Including when they are being
+You can follow the updates for each need (food, shelter, education, health, and clothes), Including when they are
+being
 fulfilled.
 
+<h1>Last month's status</h1>
+<table class="" style="overflow: auto;">
+    <tr>
+        <th>Needs</th>
+        <th>Met</th>
+        <th>Unmet</th>
+    </tr>
+    {% for need in site.needs %}
+    <tr>
+        <td>{{need.name}}</td>
+        <td>{{need.met}}</td>
+        <td>{{need.unmet}}</td>
+    </tr>
+    {% endfor %}
+</table>
+<i>Note: This data is updated at the end of each month. Last updated: 31/July/2024</i>
 <br>
 <br>
-{% include share.html %}
 <br>
+<div class="give-button">
+    <img src="/img/give.svg">
+    <span>DONATE</span>
+</div>

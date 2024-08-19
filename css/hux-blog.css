@@ -56,7 +56,7 @@
   margin-bottom: 20px;
 }
 
-.sidebar-container .director {
+.sidebar-container .contacts {
   margin-top: 0px;
   margin-bottom: 20px;
 }
@@ -163,6 +163,33 @@
 
 .side-catalog .catalog-body .active a {
   color: #0085a1 !important;
+}
+
+.give-button {
+  border: 1px solid #a6a7a7;
+  box-shadow: #000000;
+  text-align: center;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: lightgreen;
+  cursor: default;
+}
+
+.give-button:hover {
+  background-color: green;
+  color: white;
+  filter: invert(1);
+}
+
+.give-button img {
+  width: 7%;
+  height: 10%;
+}
+
+.give-button span {
+  width: 7%;
+  height: 10%;
+  font-weight: bold;
 }
 
 @media (max-width: 1200px) {

@@ -21,13 +21,13 @@ function handleRegistration(registration) {
       if (navigator.serviceWorker.controller) {
         console.log('SW is updated');
       } else {
-          console.log('A Visit without previous SW');
-	  /*
-            createSnackbar({
-            message: 'App ready for offline use.',
-            duration: 3000
-            })
-	  */
+        console.log('A Visit without previous SW');
+        /*
+                createSnackbar({
+                message: 'App ready for offline use.',
+                duration: 3000
+                })
+        */
       }
     };
   }
@@ -48,7 +48,6 @@ if (navigator.serviceWorker) {
     const data = e.data
     if (data.command == "UPDATE_FOUND") {
       console.log("UPDATE_FOUND_BY_SW", data);
-      location.reload();
       /* if you see new data, serve new data. no need to reload manually
           createSnackbar({
             message: "Content updated.",

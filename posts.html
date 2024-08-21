@@ -3,6 +3,7 @@ title: Posts
 layout: default
 description: "「 I am seeking... 」"
 header-img: "img/P1020612.JPG"
+hide-in-nav: true
 ---
 
 <!--
@@ -68,12 +69,13 @@ https://github.com/kitian616/jekyll-TeXt-theme
 					<div class="post-preview item" data-tags="{{ _tags }}">
 						<a href="{{ _article.url | prepend: site.baseurl }}">
 							<h2 class="post-title">
-							    {% if _article.coming-soon %}
-							    {{ _article.title }}
-							    <code style="font-size: medium"class="language-plaintext highlighter-rouge">[COMING SOON]</code>
-							    {% else %}
-							    {{ _article.title }}
-							    {% endif %}
+								{% if _article.coming-soon %}
+								{{ _article.title }}
+								<code style="font-size: medium"
+									class="language-plaintext highlighter-rouge">[COMING SOON]</code>
+								{% else %}
+								{{ _article.title }}
+								{% endif %}
 							</h2>
 							{% if _article.subtitle %}
 							<h3 class="post-subtitle">

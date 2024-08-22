@@ -80,7 +80,7 @@ needs:
   [
     { name: "Eating three meals a day?",  met: "❌",    unmet: ""},
     { name: "Children in school this month",    met: "(currently on summer holiday)" ,   unmet: "-"},
-    { name: "Rent",                       met: "$100",  unmet: "$250"},
+    { name: "Rent",                       met: "$350",  unmet: "$0"},
 
     { name: "Number of sick children in the hospital", met: "0", unmet: "1"},
 

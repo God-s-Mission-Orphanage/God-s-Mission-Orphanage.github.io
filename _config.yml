@@ -78,13 +78,12 @@ verses:
 
 needs:
   [
-    { name: "Eating three meals a day?",  met: "❌",    unmet: ""},
-    { name: "Children in school this month",    met: "(currently on summer holiday)" ,   unmet: "-"},
-    { name: "Rent",                       met: "$350",  unmet: "$0"},
+    { name: "Eating three meals a day?",  met: "❌",    unmet: "It's been 3 weeks that children haven't had even 2 meals/day"},
+    { name: "Children in school this month",    met: "34" ,   unmet: "6"},
+    { name: "Rent",                       met: "$0",  unmet: "$700"},
 
-    { name: "Number of sick children in the hospital", met: "0", unmet: "1"},
+    { name: "Number of sick children in the hospital", met: "0", unmet: "0"},
 
-    { name: "Building a shelter",         met: $320,      unmet: "$59,680"},
-    { name: "Back to school appliances for 36 children", met: $0,      unmet: "$600"},
-    { name: "School fees", met: (under review for new school year),      unmet: "-"}
+    { name: "Building a shelter",         met: "$320",      unmet: "$59,680"},
+    { name: "School fees", met: "" ,      unmet: "$300"}
   ]

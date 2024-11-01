@@ -85,5 +85,5 @@ needs:
     { name: "Number of sick children in the hospital", met: "0", unmet: "2 (some have fever and other infections)"},
 
     { name: "Building a shelter",         met: "$320",      unmet: "$59,680"},
-    { name: "School fees", met: "" ,      unmet: "$900"}
+    { name: "School fees", met: "$320" ,      unmet: "$900"}
   ]

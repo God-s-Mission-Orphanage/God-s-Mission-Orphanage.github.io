@@ -80,7 +80,7 @@ needs:
   [
     { name: "Eating three meals a day?",  met: "❌",    unmet: "for the last 2 months we struggled to meet this need."},
     { name: "Children in school this month",    met: "25 (9 study for free)" ,   unmet: "11"},
-    { name: "Rent",                       met: "$0",  unmet: "$700"},
+    { name: "Rent",                       met: "$0",  unmet: "$700 (we are behind in rent for 2 months)"},
 
     { name: "Number of sick children in the hospital", met: "0", unmet: "2 (some have fever and other infections)"},
 
